@@ -1,43 +1,13 @@
 fileFormatVersion: 2
-guid: 47c5aa33cc94c8d4b88c8d5b9278c1f3
+guid: f05d6b660f79c5247b4ff2c52166f5c9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1320274801293309099
-    second: "plantilla Rotaci\xF3n Michel_0"
+      213: 1039665684129899768
+    second: ElTurbio_0
   - first:
-      213: 7388323339510962657
-    second: "plantilla Rotaci\xF3n Michel_1"
-  - first:
-      213: -6763228661287027769
-    second: "plantilla Rotaci\xF3n Michel_2"
-  - first:
-      213: -8241674101498261229
-    second: "plantilla Rotaci\xF3n Michel_3"
-  - first:
-      213: -8792825798563341012
-    second: "plantilla Rotaci\xF3n Michel_4"
-  - first:
-      213: -3395697018440971354
-    second: "plantilla Rotaci\xF3n Michel_5"
-  - first:
-      213: 1785572513461766983
-    second: "plantilla Rotaci\xF3n Michel_6"
-  - first:
-      213: -798059216816782010
-    second: "plantilla Rotaci\xF3n Michel_7"
-  - first:
-      213: 3497841123405953810
-    second: "plantilla Rotaci\xF3n Michel_8"
-  - first:
-      213: 7736060387982241871
-    second: "plantilla Rotaci\xF3n Michel_9"
-  - first:
-      213: -3515128166711910358
-    second: "plantilla Rotaci\xF3n Michel_10"
-  - first:
-      213: 5123521112254390521
-    second: "plantilla Rotaci\xF3n Michel_11"
+      213: 65755910463248477
+    second: ElTurbio_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -71,9 +41,9 @@ TextureImporter:
     filterMode: 0
     aniso: 2
     mipBias: -100
-    wrapU: 2
-    wrapV: 2
-    wrapW: 2
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -161,85 +131,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "plantilla Rotaci\xF3n Michel_0"
+      name: ElTurbio_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 46
-      alignment: 9
-      pivot: {x: 0, y: 1}
+        width: 32
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55b430730117dade0800000000000000
-      internalID: -1320274801293309099
+      spriteID: 8f4e9bb6e62ad6e00800000000000000
+      internalID: 1039665684129899768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "plantilla Rotaci\xF3n Michel_1"
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 46
-      alignment: 9
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e95749aee8988660800000000000000
-      internalID: 7388323339510962657
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "plantilla Rotaci\xF3n Michel_2"
+      name: ElTurbio_1
       rect:
         serializedVersion: 2
         x: 32
         y: 0
-        width: 16
-        height: 46
-      alignment: 9
-      pivot: {x: 0, y: 1}
+        width: 32
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7cbfe3d9d5f2422a0800000000000000
-      internalID: -6763228661287027769
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "plantilla Rotaci\xF3n Michel_3"
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 0
-        width: 16
-        height: 46
-      alignment: 9
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 311d8a92211bf9d80800000000000000
-      internalID: -8241674101498261229
+      spriteID: d585b05f6ac99e000800000000000000
+      internalID: 65755910463248477
       vertices: []
       indices: 
       edges: []
@@ -247,7 +175,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 8089ce6b666c2924cad61beecf931f81
+    spriteID: 4b475f40a3482174691e16e0db9e7869
     internalID: 0
     vertices: []
     indices: 
