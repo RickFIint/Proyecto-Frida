@@ -1,0 +1,2 @@
+# Proyecto-Frida
+Un juego de terror y misterio, con una combinación de un juego de género Walking simulator, Puzle, Plataformas y Sigilo. Donde el jugador estará en la situación de resolver un misterio, tendrá que reunir y recolectar evidencia del escenario por medio de fotografías para después analizarlas y encontrar conexiones o discrepancias para llegar a descubrimientos para llegar al objetico principal del juego que es localizar una vieja amiga desaparecida. 
