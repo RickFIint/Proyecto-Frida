@@ -7,6 +7,8 @@ public class EnemyChasePlayer : MonoBehaviour
 {
     public Sensor sensor;
     //public Animator animator;
+    public bool active;
+    public GameObject origin;
 
     void Update()
     {
@@ -16,13 +18,20 @@ public class EnemyChasePlayer : MonoBehaviour
             Chase(detected);
         }else
         {
-            Idel();
+            if (active)
+            {
+                Comeback();
+            }
+            else
+            {
+                Idel();
+            }           
         }
     }
 
     void Chase(GameObject target)
     {
-        var speed = 3f;
+        var speed = 2.9f;
 
         transform.LookAt(target.transform);
         transform.position += transform.forward * speed * Time.deltaTime;
@@ -33,6 +42,23 @@ public class EnemyChasePlayer : MonoBehaviour
         {
             //Destroy(target);
             Debug.Log("Hecho!");
+        }
+
+        active = true;
+    }
+
+    void Comeback()
+    {
+        var speed = 5f;
+
+        transform.LookAt(origin.transform);
+        transform.position += transform.forward * speed * Time.deltaTime;
+
+        //animator.SetFloat("Speed_f", speed);
+
+        if ((transform.position - origin.transform.position).magnitude < 0.5f)
+        {
+            active = false;
         }
     }
 
